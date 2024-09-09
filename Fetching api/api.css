@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background: url("https://miro.medium.com/v2/resize:fit:1200/1*2bf303U0V7AH3wP6ezUZ5g.jpeg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.heading{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 60px;
+    color: #ffffff;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: black;
+    padding: 28px 1px;
+}
+.container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 328px;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 28px;
+    gap: 38px;
+}
+.right-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 27px;
+    gap: 38px;
+}
+.currency{
+    height: 31px;
+    width: 232px;
+}
+#input{
+    height: 31px;
+    width: 228px;
+}
+#result{
+    height: 31px;
+    width: 228px;
+}
+#btn{
+    width: 100px;
+    background-color: blue;
+    color: white;
+    height: 100px;
+    font-size: 20px;
+}
